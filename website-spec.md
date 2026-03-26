@@ -1,4 +1,5 @@
 # Company Website — Technical Specification
+**Transnatur INC** — Freight & Trucking
 > Inspired by Revolut's approach: value-first, scroll-driven, conversion-focused.
 > Stack: Next.js 14 (App Router) + Tailwind CSS + Framer Motion
 
@@ -394,24 +395,21 @@ Also add:
 
 ---
 
-## What to Use as Placeholder Content
+## Placeholder Content
 
-- Company name: **"Nexora"** (replace later)
-- Tagline: **"Smart solutions for modern businesses"**
-- Service category: keep generic (consulting / services) — user will replace
-- All images: use colored placeholder divs or `https://placehold.co/` URLs
-- Team names: Alex Morgan, Jamie Chen, Sam Rivera, Chris Park
-- All text: realistic-sounding placeholder, not Lorem Ipsum
+- Company name: **Transnatur INC**
+- Tagline: **"Moving cargo. Building trust."**
+- Industry: freight & trucking — all text must use realistic industry language, NOT Lorem Ipsum
+- All images: `https://placehold.co/WIDTHxHEIGHT/1F1F1F/C79A1B`
+- Team: Alex Morgan (CEO & Founder) · Jamie Chen (Head of Operations) · Sam Rivera (Fleet Manager) · Chris Park (Dispatch Lead)
 
 ---
 
 ## Start Instructions for Claude Code
 
-1. Initialize Next.js 14 project with App Router + Tailwind CSS
-2. Install: `framer-motion`, `lucide-react`, `react-hook-form`
-3. Set up the design system (CSS variables, Tailwind config)
-4. Build shared components first: `Navbar`, `Footer`, `Button`, `Card`
-5. Build the Home page top-to-bottom, section by section
-6. Then build remaining pages: About → Services → Contact → Blog → Legal
-7. Add animations last, after all content is in place
-8. Test responsive layout on all breakpoints before finishing
+> The `/web` directory is already initialized with Next.js 14, Tailwind, and all dependencies per README.md setup steps.
+
+1. Read `SKILL.md` — it is the single source of truth for build instructions
+2. `website-spec.md` (this file) — design rationale and architecture reference
+3. Build everything into the `/web` directory
+4. Follow the build order in `SKILL.md` exactly

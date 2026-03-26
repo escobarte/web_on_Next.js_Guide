@@ -64,3 +64,8 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 ```
+
+# This is only for me
+## This code will be added into Claude Code to activate this projec
+
+" Read SKILL.md and build the complete website into the /web directory "
