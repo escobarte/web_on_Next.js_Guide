@@ -9,8 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: '#111111',
+        surface: '#1F1F1F',
+        accent: '#C79A1B',
+        'accent-hover': '#A87E14',
+        'text-primary': '#F2F2F2',
+        'text-secondary': '#A8A8A8',
+        border: '#2A2A2A',
+      },
+      fontFamily: {
+        display: ['Barlow Condensed', 'sans-serif'],
+        body: ['DM Sans', 'sans-serif'],
       },
     },
   },
