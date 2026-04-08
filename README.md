@@ -1,6 +1,8 @@
 # To run this site do:
+```
 cd web/
 pnpm dev
+```
 Last udpate: 4/06/2026 1:17PM
 
 
